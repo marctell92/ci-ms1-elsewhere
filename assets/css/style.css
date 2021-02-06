@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-hero-header {
+    height: 100vh;
+    background: no-repeat center center;
+background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e, #3a9474, #208a79, #027f7b, #016f6b, #015f5c, #00504d, #00413f);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+}
+
+.container-concept {
+    height: 200vh;
+    background-image: linear-gradient(to bottom, #00413f, #00504d, #015f5c, #016f6b, #027f7b, #208a79, #3a9474, #549e6e, #83a056, #b29c4b, #dd9458, #ff8b7b);
+
+}
+
+.container-projects {
+    height: 100vh;
+background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e, #3a9474, #208a79, #027f7b, #016f6b, #015f5c, #00504d, #00413f);
+
+}
+
+.container-team {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #00413f, #00504d, #015f5c, #016f6b, #027f7b, #208a79, #3a9474, #549e6e, #83a056, #b29c4b, #dd9458, #ff8b7b);
+
+}
+
+/* ========HERO HEADER======== */
+.hero-header h1 {
+    color: #FF8B7B;
+    font-size: 66px;
+}
+.hero-header h2 {
+    color: #FF8B7B;
+    font-size: 22px;
+}
+
+i {
+    color: #FF8B7B;
+    font-size: 66px;
+    position: absolute;
+    bottom: 5%;
+    /* not in the right position */
+    left: 45%;
+    
+
+}
+
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}

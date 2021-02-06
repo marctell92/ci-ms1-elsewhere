@@ -128,6 +128,8 @@ Inspiration for README structure from  https://github.com/LigaMoon/Prickly/blob/
 Color Palette form https://mycolor.space/
 Fonts: googlefonts.com
 
+Jumbotron code migration v4 to v5 https://stackoverflow.com/questions/63141494/how-to-create-jumbotron-in-bootstrap-5
+
 ### Content
 
 ### Media
