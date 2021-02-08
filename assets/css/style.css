@@ -18,20 +18,20 @@ background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056,
 }
 
 .container-concept {
-    height: 200vh;
-    background-image: linear-gradient(to bottom, #00413f, #00504d, #015f5c, #016f6b, #027f7b, #208a79, #3a9474, #549e6e, #83a056, #b29c4b, #dd9458, #ff8b7b);
-
+    width: 100vw;
+background-color: #00413F;
+padding: 0;
 }
 
 .container-projects {
-    height: 100vh;
-background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e, #3a9474, #208a79, #027f7b, #016f6b, #015f5c, #00504d, #00413f);
+background-color: #00413F;
+    width: 100vw;
 
 }
 
 .container-team {
-    height: 100vh;
     background-image: linear-gradient(to bottom, #00413f, #00504d, #015f5c, #016f6b, #027f7b, #208a79, #3a9474, #549e6e, #83a056, #b29c4b, #dd9458, #ff8b7b);
+    width: 100vw;
 
 }
 
@@ -45,18 +45,66 @@ background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056,
     font-size: 22px;
 }
 
-i {
+.learn-more {
     color: #FF8B7B;
-    font-size: 66px;
-    position: absolute;
-    bottom: 5%;
-    /* not in the right position */
-    left: 45%;
+    font-size: 12px;
+    position: relative;
     
+}
+
+i {
+    font-size: 55px;
+}
+
+.card-1 {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 139, 123, 0.4));
 
 }
 
+.card-2 {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(0, 65, 63, 0.4));
+}
+
+.card-3 {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
+
+}
 
 .text-responsive {
   font-size: calc(100% + 1vw + 1vh);
 }
+
+#navbar-brand-title {
+    padding-left: 10px;
+    color: black;
+}
+
+.navbar {
+    background-color:  rgba(255, 255, 255, 0.7);
+}
+
+.nav-link {
+    color: black;
+}
+
+.section-title {
+    text-align: center;
+    color: #FF8B7B; 
+    
+}
+
+.section-title h2 {
+    font-size: 42px;
+}
+
+.concept-block h3{
+    color: #FF8B7B;
+    font-size: 24px;  
+}
+
+.concept-block p{
+    color: white;
+    font-size: 14px;
+}
+
+
