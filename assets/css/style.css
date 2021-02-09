@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 /* ----------------------CONTAINERS */
@@ -53,28 +54,17 @@ body {
 }
 
 i {
-    font-size: 55px;
-}
-
-.text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
+    font-size: 22px;
 }
 /* ///-------------------HERO HEADER */
 
 /* ----------------------TEAM CARDS */
-.card-1 {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
-
+.team-member-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
+    box-shadow: 0 4px 8px 0 white;
+    margin: 10px 0;
 }
 
-.card-2 {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
-}
-
-.card-3 {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
-
-}
 /* ///-------------------TEAM CARDS */
 
 
@@ -129,7 +119,7 @@ i {
 }
 /* ///-------------------CONCEPT SECTION */
 
-img {
+.concept-card img {
     height: auto;
     width: 95%;
     display: block;
@@ -137,3 +127,20 @@ img {
     border: 3px solid #00413F;
     border-radius: 5%;
 }
+
+.clients {
+    background-image: linear-gradient(to right top, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e);
+    box-shadow: 0 4px 8px 0 white;
+    text-align-last: justify;
+    padding: 2% 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+
