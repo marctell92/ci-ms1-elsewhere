@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* ----------------------CONTAINERS */
 .container-hero-header {
     height: 100vh;
     background: no-repeat center center;
@@ -20,7 +21,6 @@ background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056,
 .container-concept {
     width: 100vw;
 background-color: #00413F;
-padding: 0;
 }
 
 .container-projects {
@@ -34,8 +34,10 @@ background-color: #00413F;
     width: 100vw;
 
 }
+/* ///-------------------CONTAINERS */
 
-/* ========HERO HEADER======== */
+/* ----------------------HERO HEADER */
+
 .hero-header h1 {
     color: #FF8B7B;
     font-size: 66px;
@@ -56,6 +58,12 @@ i {
     font-size: 55px;
 }
 
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+/* ///-------------------HERO HEADER */
+
+/* ----------------------TEAM CARDS */
 .card-1 {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 139, 123, 0.4));
 
@@ -69,11 +77,10 @@ i {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
 
 }
+/* ///-------------------TEAM CARDS */
 
-.text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
-}
 
+/* ----------------------NAVBAR */
 #navbar-brand-title {
     padding-left: 10px;
     color: black;
@@ -87,24 +94,52 @@ i {
     color: black;
 }
 
+/* ///-------------------NAVBAR */
+
+/* ----------------------SECTION TITLES */
 .section-title {
     text-align: center;
     color: #FF8B7B; 
+    padding: 40px 0 25px;
     
 }
 
 .section-title h2 {
     font-size: 42px;
 }
+/* ///-------------------SECTION TITLES */
 
+/* ----------------------CONCEPT SECTION */
 .concept-block h3{
     color: #FF8B7B;
-    font-size: 24px;  
+    font-size: 24px;
+    margin: 0 12px;
+    padding: 9px 0 12px;
 }
 
 .concept-block p{
     color: white;
     font-size: 14px;
+    margin: 0 12px;
+        padding: 9px 0;
+
 }
 
+.concept-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 139, 123, 0.5));
+margin: 5px;
+border-radius: 5%;
+}
+/* ///-------------------CONCEPT SECTION */
+
+img {
+    height: auto;
+    width: 95%;
+    display: block;
+    margin: auto;
+    border: 3px solid #00413F;
+;
+    border-radius: 5%;
+
+}
 
