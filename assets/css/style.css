@@ -6,7 +6,7 @@ body {
 .container-hero-header {
     height: 100vh;
     background: no-repeat center center;
-background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e, #3a9474, #208a79, #027f7b, #016f6b, #015f5c, #00504d, #00413f);
+    background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e, #3a9474, #208a79, #027f7b, #016f6b, #015f5c, #00504d, #00413f);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,20 +19,15 @@ background-image: linear-gradient(to bottom, #ff8b7b, #dd9458, #b29c4b, #83a056,
 }
 
 .container-concept {
-    width: 100vw;
-background-color: #00413F;
+    background-color: #00413F;
 }
 
 .container-projects {
-background-color: #00413F;
-    width: 100vw;
-
+    background-color: #00413F;
 }
 
 .container-team {
     background-image: linear-gradient(to bottom, #00413f, #00504d, #015f5c, #016f6b, #027f7b, #208a79, #3a9474, #549e6e, #83a056, #b29c4b, #dd9458, #ff8b7b);
-    width: 100vw;
-
 }
 /* ///-------------------CONTAINERS */
 
@@ -41,17 +36,20 @@ background-color: #00413F;
 .hero-header h1 {
     color: #FF8B7B;
     font-size: 66px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
 .hero-header h2 {
     color: #FF8B7B;
     font-size: 22px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .learn-more {
     color: #FF8B7B;
     font-size: 12px;
-    position: relative;
-    
+    position: relative;  
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 i {
@@ -65,12 +63,12 @@ i {
 
 /* ----------------------TEAM CARDS */
 .card-1 {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 139, 123, 0.4));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
 
 }
 
 .card-2 {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(0, 65, 63, 0.4));
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(3, 149, 144, 0.4));
 }
 
 .card-3 {
@@ -100,8 +98,7 @@ i {
 .section-title {
     text-align: center;
     color: #FF8B7B; 
-    padding: 40px 0 25px;
-    
+    padding: 30px 0 25px;    
 }
 
 .section-title h2 {
@@ -121,14 +118,14 @@ i {
     color: white;
     font-size: 14px;
     margin: 0 12px;
-        padding: 9px 0;
+    padding: 9px 0;
 
 }
 
 .concept-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 139, 123, 0.5));
-margin: 5px;
-border-radius: 5%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 139, 123, 0.5));
+    margin: 5px auto;
+    border-radius: 5%;
 }
 /* ///-------------------CONCEPT SECTION */
 
@@ -138,8 +135,5 @@ img {
     display: block;
     margin: auto;
     border: 3px solid #00413F;
-;
     border-radius: 5%;
-
 }
-
