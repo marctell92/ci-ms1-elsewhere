@@ -34,27 +34,54 @@ body {
 
 /* ----------------------HERO HEADER */
 
-.hero-header h1 {
+.hero-header-title h1 {
     color: #FF8B7B;
     font-size: 66px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
-.hero-header h2 {
+.hero-header-title h2 {
     color: #FF8B7B;
-    font-size: 22px;
+    font-size: 24px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
 }
 
-.learn-more {
+.hero-header-title{
+    animation-name: hero-title-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-title-zoom {
+    from{ 
+        transform: scale(1);
+        opacity: 0.1;
+    }
+    to{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+#learn-more {
     color: #FF8B7B;
-    font-size: 12px;
-    position: relative;  
+    font-size: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 3%;
 }
 
 i {
-    font-size: 22px;
+    font-size:40px;
+    vertical-align: middle;
+    padding: 0 7px;
+    font-weight: 100;
+
 }
 /* ///-------------------HERO HEADER */
 
@@ -81,7 +108,6 @@ i {
 .nav-link {
     color: black;
 }
-
 /* ///-------------------NAVBAR */
 
 /* ----------------------SECTION TITLES */
@@ -113,11 +139,10 @@ i {
 }
 
 .concept-card {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 139, 123, 0.5));
-    margin: 5px auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 139, 123, 0.5));
+    margin: 15px auto;
     border-radius: 5%;
 }
-/* ///-------------------CONCEPT SECTION */
 
 .concept-card img {
     height: auto;
@@ -128,19 +153,49 @@ i {
     border-radius: 5%;
 }
 
+#graph-card {
+    padding: 0;
+}
+
+#graph {
+    width: 100%;
+    height: auto;
+}
+/* ///-------------------CONCEPT SECTION */
+
+/* ----------------------CLIENTS SECTION */
 .clients {
     background-image: linear-gradient(to right top, #ff8b7b, #dd9458, #b29c4b, #83a056, #549e6e);
     box-shadow: 0 4px 8px 0 white;
-    text-align-last: justify;
-    padding: 2% 2%;
+    padding: 2%;
     margin-bottom: 5%;
     margin-top: 5%;
 
 }
 
 .logo {
-    width: 20%;
+    width: 15%;
     height: auto;
 }
+/* ///-------------------CLIENTS SECTION */
 
+/* ----------------------FOOTER SECTION */
+footer {
+    background-color: rgba(255, 139, 123, 0.8);
+    color: #00413F;
+    min-height: 60px;
+}
+
+footer h5 {
+    padding: 10px 0;
+}
+
+footer i{
+    font-size: 12px;
+}
+
+.social-links{
+
+}
+/* ///-------------------FOOTER SECTION */
 

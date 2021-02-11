@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://use.fontawesome.com/bd8222107b.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -23,8 +24,8 @@
             <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item "><a href="#" class="nav-link">Home</a></li>
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Our concept</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Our projects</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">The team</a></li>
@@ -33,16 +34,16 @@
         </div>
     </nav>
     <!-- hero-header-section -->
-    <div class="container-fluid container-hero-header">
-        <div class="row">
+    <div class="container-fluid container-hero-header hero-header">
+        <div class="row hero-header-title">
             <div class="col-12">
-                <section class="hero-header text-center text-responsive">
-                    <h1>ElseWhere</h1>
-                    <h2>- The Future of Streaming -</h2>
-                    <div class="learn-more">Learn<i class="fas fa-angle-double-down"></i>More</div>
-                </section>
-
-
+                <h1>ElseWhere</h1>
+                <h2>- The Future of Streaming -</h2>
+            </div>
+        </div>
+        <div class="row" id="learn-more">
+            <div class="col-12">
+                <p>Learn<i class="fas fa-angle-double-down"></i>More</p>
             </div>
         </div>
     </div>
@@ -50,142 +51,189 @@
 
     <!-- concept-section -->
     <div class="container-fluid container-concept">
-        <!-- <section class="concept container-fluid container-concept"> -->
-            <div class="row section-title">
-                <div class="col-12">
-                    <h2 class="text-uppercase">Our concept</h2>
-                </div>
+        <div class="row section-title">
+            <div class="col-12">
+                <h2 class="text-uppercase">Our concept</h2>
             </div>
-            <div class="row concept-block">
-                <div class="col-12 col-md-6 col-lg-4 concept-card">
-                    <h3>Imaginary sets</h3>
-                    <img src="/assets/images/green-screen.jpg" alt="">
-                    <p>Possibilities are endles with our Chroma screens. A meeting on a table in the middle of NY
-                        Times Square?
-                        We make it happen.</p>
-                </div>
+        </div>
+        <div class="row concept-block">
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card">
+                <h3>Imaginary sets</h3>
+                <img src="/assets/images/green-screen.jpg" alt="">
+                <p>Possibilities are endles with our Chroma screens. A meeting on a table in the middle of NY
+                    Times Square?
+                    We make it happen.</p>
+            </div>
 
-                <div class="col-12 col-md-6 col-lg-4 concept-card">
-                    <h3>Immersive sets</h3>
-                    <img src="/assets/images/immersive-sets.jpg" alt="">
-                    <p>It's not only a background. Dive inside our sets: take a seat, hide behind a wall, open doors
-                        to
-                        creativity.</p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 concept-card">
-                    <h3>Multiple contents</h3>
-                    <img src="/assets/images/multiple-contents.jpg" alt="">
-                    <p>Bring in the power of your visuals, take control of the screens, SHARE content.</p>
-                </div>
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card">
+                <h3>Immersive sets</h3>
+                <img src="/assets/images/immersive-sets.jpg" alt="">
+                <p>It's not only a background. Dive inside our sets: take a seat, hide behind a wall, open doors
+                    to
+                    creativity.</p>
             </div>
-            <div class="row concept-block">
-                <div class="col-12 col-md-6 col-lg-4 order-1 concept-card">
-                    <h3>Audience interactivity</h3>
-                    <img src="/assets/images/audience-interactivity.jpg" alt="">
-                    <p>For all to fit in, for all to interact no matter where you are. Office at home never felt
-                        like this.</p>
-                </div>
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card">
+                <h3>Multiple contents</h3>
+                <img src="/assets/images/multiple-contents.jpg" alt="">
+                <p>Bring in the power of your visuals, take control of the screens, SHARE content.</p>
+            </div>
+        </div>
+        <div class="row concept-block">
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card">
+                <h3>Audience interactivity</h3>
+                <img src="/assets/images/audience-interactivity.jpg" alt="">
+                <p>For all to fit in, for all to interact no matter where you are. Office at home never felt
+                    like this.</p>
+            </div>
 
-                <div class="col-12 col-md-6 col-lg-4 order-3 concept-card">
-                    <h3>Multiplatform</h3>
-                    <img src="/assets/images/multiplatform.jpg" alt="">
-                    <p>Available on all most recognized communication platforms: Microsoft Teams, Zoom, Google Meet,
-                        Slack, etc.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 order-2 concept-card">
-                    <img src="/assets/images/graph.jpg" alt="">
-                </div>
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card">
+                <h3>Multiplatform</h3>
+                <img src="/assets/images/multiplatform.jpg" alt="">
+                <p>Available on all most recognized communication platforms: Microsoft Teams, Zoom, Google Meet,
+                    Slack, etc.
+                </p>
             </div>
-        <!-- </section> -->
+            <div class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 concept-card" id="graph-card">
+                <img src="/assets/images/graph.jpg" alt="" id="graph">
+            </div>
+        </div>
     </div>
     <!-- /concept-section -->
 
     <!-- projects-section -->
     <div class="container-fluid container-projects">
-        <!-- <section class="projects"> -->
-            <div class="row section-title">
-                <div class="col-12 mt-5">
-                    <h2 class="text-uppercase">Our projects</h2>
-                </div>
+        <div class="row section-title">
+            <div class="col-12 mt-5">
+                <h2 class="text-uppercase">Our projects</h2>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <span>videos</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <span>videos</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <span>videos</span>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <span>videos</span>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <span>videos</span>
             </div>
-            <div class="row">
-                <div class="col-8 offset-2 col-md-8 offset-md-2 col-lg-8 offset-lg-2 clients">
-                    <img src="/assets/images/repsol-logo.png" alt="" class="logo">
-                    <img src="/assets/images/nestle-logo.png" alt="" class="logo">
-                    <img src="/assets/images/desigual-logo.png" alt="" class="logo">
-                    <img src="/assets/images/danone-logo.png" alt="" class="logo">
-                </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span>videos</span>
             </div>
-        <!-- </section> -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <span>videos</span>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <span>videos</span>
+            </div>
+        </div>
+        <div class="row">
+            <div
+                class="col-10 offset-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 clients rounded-pill d-flex justify-content-evenly">
+                <img src="/assets/images/repsol-logo.png" alt="" class="logo">
+                <img src="/assets/images/nestle-logo.png" alt="" class="logo">
+                <img src="/assets/images/desigual-logo.png" alt="" class="logo">
+                <img src="/assets/images/danone-logo.png" alt="" class="logo">
+            </div>
+        </div>
     </div>
     <!-- /projects-section -->
 
     <!-- team-section -->
     <div class="container-fluid container-team">
-        <!-- <section class="team"> -->
-            <div class="row section-title">
-                <div class="col-12 mt-5">
-                    <h2 class="text-uppercase">The team</h2>
+        <div class="row section-title">
+            <div class="col-12 mt-5">
+                <h2 class="text-uppercase">The team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card mx-auto team-member-card" style="width: 15rem;">
+                    <h4>Pep Torres</h4>
+                    <h6 class="text-muted">Brand Manager</h6>
+                    <div class="team-member-image">
+                        <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="card mx-auto team-member-card" style="width: 15rem;">
-                        <h4>Pep Torres</h4>
-                        <h6 class="text-muted">Brand Manager</h6>
-                        <div class="team-member-image">
-                            <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
-                                class="rounded-circle img-fluid">
-                        </div>
-                        <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
+            <div class="col-12 col-md-4">
+                <div class="card mx-auto team-member-card" style="width: 15rem;">
+                    <h4>Pep Torres</h4>
+                    <h6 class="text-muted">Brand Manager</h6>
+                    <div class="team-member-image">
+                        <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
+                            class="rounded-circle img-fluid">
                     </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card mx-auto team-member-card" style="width: 15rem;">
-                        <h4>Pep Torres</h4>
-                        <h6 class="text-muted">Brand Manager</h6>
-                        <div class="team-member-image">
-                            <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
-                                class="rounded-circle img-fluid">
-                        </div>
-                        <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card mx-auto team-member-card" style="width: 15rem;">
-                        <h4>Pep Torres</h4>
-                        <h6 class="text-muted">Brand Manager</h6>
-                        <div class="team-member-image">
-                            <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
-                                class="rounded-circle img-fluid">
-                        </div>
-                        <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
-                    </div>
+                    <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
                 </div>
             </div>
-            <!-- from bootrstrap, but styled -->
-            <div class="d-grid gap-2 col-6 mx-auto mt-5">
-                <button class="btn btn-outline-dark btn-lg" type="button">stereonoise.me</button>
-                <button class="btn btn-outline-dark btn-lg" type="button">Get in touch</button>
+            <div class="col-12 col-md-4">
+                <div class="card mx-auto team-member-card" style="width: 15rem;">
+                    <h4>Pep Torres</h4>
+                    <h6 class="text-muted">Brand Manager</h6>
+                    <div class="team-member-image">
+                        <img src="/assets/images/pep-torres.png" alt="Pep Torres image"
+                            class="rounded-circle img-fluid">
+                    </div>
+                    <p>Pep's projects are countless: Cirque du Solei, Everi, F. C. Barcelona...</p>
+                </div>
             </div>
-        <!-- </section> -->
+        </div>
+        <!-- from bootrstrap, but styled -->
+        <div class="d-grid gap-2 col-6 mx-auto mt-5">
+            <button class="btn btn-outline-dark btn-lg" type="button">stereonoise.me</button>
+            <button class="btn btn-outline-dark btn-lg" type="button">Get in touch</button>
+        </div>
     </div>
     <!-- /team-section -->
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-5 offset-1">
+                <h5 class="text-uppercase">Contact</h5>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i>info@elsewhere.com
+                    <span class="sr-only">Email</span>
+                </p>
+                <p><i class="fas fa-phone" aria-hidden="true"></i>555 674 789
+                    <span class="sr-only">Phone</span>
+
+                </p>
+            </div>
+            <div class="col-5 offset-1">
+                <h5 class="text-uppercase">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="inline-list-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="inline-list-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="inline-list-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="inline-list-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                    <li class="inline-list-item">
+                        <a href="#" target="_blank">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <!-- /footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
